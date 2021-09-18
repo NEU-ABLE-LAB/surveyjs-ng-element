@@ -1,4 +1,8 @@
-# AngularWebComponent
+# SurveyjsWebComponent
+
+Creates a survey using [SurveyJS](https://surveyjs.io) inside a custom web component. 
+
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 

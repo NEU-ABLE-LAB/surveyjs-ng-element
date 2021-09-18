@@ -1,7 +1,10 @@
 {
   "name": "surveyjs-web-component",
   "description": "SurveyJS encapsulated in a web component",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "type": "module",
+  "main": "main.ts",
+  "module": "main.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
