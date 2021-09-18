@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-web-component'`, () => {
+  it(`should have as title 'surveyjs-web-component'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-web-component');
+    expect(app.title).toEqual('surveyjs-web-component');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-web-component app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('surveyjs-web-component app is running!');
   });
 });

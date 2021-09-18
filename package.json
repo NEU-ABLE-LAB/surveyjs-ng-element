@@ -1,6 +1,7 @@
 {
-  "name": "angular-web-component",
-  "version": "0.0.0",
+  "name": "surveyjs-web-component",
+  "description": "SurveyJS encapsulated in a web component",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +9,16 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NEU-ABLE-LAB/surveyjs-ng-element/"
+  },
+  "author": "Michael B Kane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NEU-ABLE-LAB/surveyjs-ng-element/issues"
+  },
+  "homepage": "https://github.com/NEU-ABLE-LAB/surveyjs-ng-element/",
   "dependencies": {
     "@angular/animations": "~12.2.0",
     "@angular/common": "~12.2.0",
